@@ -11,6 +11,10 @@ title.textContent = "La concha de su madre"*/
 /*const label1 = document.getElementById('label1')
 label1.textContent = "Modificacion exitosa" // Marca null ya sea con querySelector o con getElementBy
 form.children[0].textContent = "Modificacion exitosa"*/
+
+
+//prueba
+console.log(activar.parentNode)
  
 
 function a_procesar(){
@@ -32,7 +36,7 @@ function a_procesar(){
 
     /*procesar(form.children[0])*/ //Si lo modifica pero cuando se sale de esta funcion vuelve al valor por defecto
 
-    procesar(title)
+    procesar()
     
 
 
@@ -42,7 +46,7 @@ function a_procesar(){
 
 }
 
-function procesar(title){
+function procesar(){
 
 
     /*elemento.textContent = "Modificado solo funcion aqui"*/ //Si lo modifica pero solo mientras esta dentro de esta funcion
